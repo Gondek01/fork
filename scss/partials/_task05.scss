@@ -1,0 +1,28 @@
+.task-05 {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.task-05 img {
+  width: 600px;
+  height: auto;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .task-05 img {
+    width: 200px;
+    align-self: flex-start;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .task-05 img {
+    width: 100%;
+  }
+}
+
+
+
+
